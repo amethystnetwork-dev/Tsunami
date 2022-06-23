@@ -95,7 +95,6 @@ Read the documentation below to find out more</p>
 - [ ] Remove keywords
 - [x] Apps page (Replace Chatbox)
 - [ ] Inspect button (Avo)
-- [ ] Inspect button (Avo)
 
 ### Version 3.0
 - [ ] Mobile support (finish)
