@@ -91,14 +91,11 @@ Read the documentation below to find out more</p>
 - [x] Remove mist and docs
 - [x] Background settings
 
-### Release v2.25
+### Release v2.5
 - [ ] Remove keywords
 - [x] Apps page (Replace Chatbox)
 - [ ] Inspect button (Avo)
 - [ ] Inspect button (Avo)
-
-### Version 2.5
-- [] Lite mode (just sw proxies no backend)
 
 ### Version 3.0
 - [ ] Mobile support (finish)

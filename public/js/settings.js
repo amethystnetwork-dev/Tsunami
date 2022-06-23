@@ -100,15 +100,6 @@ console.log("%chttps://discord.gg/yk33HZSZkU", "font-size: 15px")
 console.log("%chttps://github.com/FogNetwork/Tsunami", "font-size: 15px")
 }
 
-var mode = localStorage.getItem("mode") || "default"
-document.querySelector(".tabmode[mode='" + mode + "']").classList.add("tabbuttonactive")
-
-function setmode(mode) {
-document.querySelectorAll(".tabmode").forEach(e =>  e.classList.remove("tabbuttonactive"));
-localStorage.setItem("mode", mode)
-document.querySelector(".tabmode[mode='" + mode + "']").classList.add("tabbuttonactive")
-}
-
 var gosurf = localStorage.getItem("go") || "default"
 document.querySelector(".tabgo[go='" + gosurf + "']").classList.add("tabbuttonactive")
 

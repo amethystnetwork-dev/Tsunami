@@ -49,9 +49,6 @@ return stompproxy + Stomp.html(StompSearch.query(url))
 
 function pxyopen(url) {
 if (localStorage.getItem("proxy") !== null) {
-var mode = localStorage.getItem("mode") || "defualt"
-
-if (mode == "defualt") {
 var surf = document.getElementById("surf");
 var closesurf = document.getElementById("closesurf");
 var reloadsurf = document.getElementById("reloadsurf");
@@ -62,15 +59,6 @@ closesurf.style.display = "initial";
 reloadsurf.style.display = "initial";
 surf.setAttribute("src", getproxy(url));
 document.getElementById("search").value = "";
-} else if (mode == "simple") {
-window.location.href = getproxy(url)
-} else if (mode == "about") {
-var page = new ABC({
-    "type": "blank",
-    "url": getproxy(url)
-})
-page.open()
-}
 }
 }
 
