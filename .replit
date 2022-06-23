@@ -1,3 +1,2 @@
 language = "nodejs"
-run = "npm start"
-onBoot = "npm install"
+run = "node index.js"

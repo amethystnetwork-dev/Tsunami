@@ -18,8 +18,6 @@ Read the documentation below to find out more</p>
 <a href="https://heroku.com/deploy?template=https://github.com/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
 <a href="https://repl.it/github/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
 <a href="https://glitch.com/edit/#!/import/github/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/glitch2.svg"><img></a>
-<a href="https://railway.app/new/template?template=https://github.com/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/railway2.svg"><img></a>
-<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/FogNetwork/Tsunami&branch=main&name=Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/koyeb2.svg"><img></a>
 </p>
 
 ## Documentation
@@ -52,28 +50,32 @@ Read the documentation below to find out more</p>
 - reddit.com
 - wolframalpha.com
 - 1v1.lol
+- schoolcheats.net?
 
 ### Features
 
 - All the best proxies
-- Nice games library
-- Tab cloaking and lots of themes/settings
+- Nice game library
+- Tab cloaking and other cool features
 - Basic auth
 - Customizable CSS
 - Installable PWA
-- More games
+- Build in youtube downloader
 
 ## Pages
 
 - `/` Homepage
-- `/1` Apps
-- `/2` Arcade
+- `/1` Arcade
+- `/2` Chatbox
 - `/3` Settings
 - `/4` Terms
 - `/5` Privacy
-- `/6` Credits
-- `/7` Support and Contact
-- `/404` 404
+- `/6` Documentation
+- `/7` Credits
+- `/8` Support and Contact
+- `/9` Youtube
+- `/404` 404 Error
+
 ## Setup
 
 ### Locally
@@ -94,15 +96,11 @@ Click one of the buttons above and follow the steps
 
 ### Proxies
 
-All proxies hosted locally, so you don't need any subdomains
+Palladium and Corrosion are hosted locally, so you don't need a subdomain
 
-[Ultraviolet (/ultraviolet/)](https://github.com/titaniumnetwork-dev/Ultraviolet)
+[Locally (Palladium)](https://github.com/FogNetwork/Palladium)
 
-[Stomp (/stomp/)](https://github.com/sysce/stomp)
-
-[Corrosion (/corrosion/)](https://github.com/titaniumnetwork-dev/Corrosion)
-
-[Rhodium (/rhodium/)](https://github.com/LudicrousDevelopment/Rhodium)
+[Locally (Corrosion)](https://github.com/titaniumnetwork-dev/Corrosion)
 
 ### Configuration
 
@@ -113,8 +111,7 @@ All proxies hosted locally, so you don't need any subdomains
     "port": "8080",
     "auth": "false",
     "username": "user",
-    "password": "secret",
-    "chromebook": "false"
+    "password": "secret"
 }
 ```
 
@@ -126,7 +123,23 @@ All proxies hosted locally, so you don't need any subdomains
 
 `"password"` Password for authentication
 
-`"chromebook"` Chromebook only mode, set to true or false
+**/public/js/go.js**
+
+```js
+var palladiumproxy = window.location.protocol + "//" + window.location.hostname + "/palladium/gateway?url="
+
+var corrosionproxy = window.location.protocol + "//" + window.location.hostname + "/corrosion/gateway?url="
+
+```
+`palladiumproxy` Location for Palladium proxy
+
+`corrosionproxy` Location for Corrosion proxy
+
+Custom Proxy Example:
+
+```js
+var palladiumproxy = "https://example.com/palladium/"
+```
 
 ## Support
 
@@ -138,7 +151,7 @@ Join our [discord](https://discord.gg/yk33HZSZkU) for more Tsunami links
 
 **Captcha not working/issues**
 
-Captcha is only supported on Ultraviolet
+Captcha is only supported on Corrosion, though the support is limited
 
 **Why is Discord not working properly?**
 
@@ -152,17 +165,13 @@ Nebelung - [Nebelung#1335](https://discord.com/users/887118260963782686)
 
 ### Proxy Sources
 
-[Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)
-
-[Stomp](https://github.com/sysce/stomp)
+[Palladium](https://github.com/FogNetwork/Palladium)
 
 [Corrosion](https://github.com/titaniumnetwork-dev/Corrosion)
 
 [Modified Corrosion](https://github.com/BinBashBanana/Corrosion-Heroku)
 
-[Rhodium](https://github.com/LudicrousDevelopment/Rhodium)
-
-[Palladium](https://github.com/FogNetwork/Palladium) (Not Used)
+[Aero](https://github.com/titaniumnetwork-dev/aero) (Not Used)
 
 [Womginx](https://github.com/binary-person/womginx) (Not Used)
 
@@ -182,24 +191,24 @@ Nebelung - [Nebelung#1335](https://discord.com/users/887118260963782686)
 
 [Nebelung](https://github.com/Nebelung-Dev) - Owner and Main Developer
 
-[EnderKingJ](https://github.com/EnderKingJ) - Helper/Proxy Developer/Squares Background
+[EnderKingJ](https://github.com/EnderKingJ) - Proxy Developer
 
-[Caracal.js](https://github.com/caracal-js) - Inspiration/Proxy Developer
+[Quite A Fancy Emerald](https://github.com/QuiteAFancyEmerald) - Holy Unblocker King
 
-[Quite A Fancy Emerald](https://github.com/QuiteAFancyEmerald) - Inspiration/Holy Unblocker
-
-[LQ16](https://github.com/https://github.com/Null-n-V0id) - TN Founder
+[Caracal.js](https://github.com/caracal-js) - Proxy Developer
 
 [MikeLime](https://github.com/MikeLime-dev) - Developer
 
-[BinBashBanana](https://github.com/BinBashBanana) - Games Library and PyDodge 
+[BinBashBanana](https://github.com/BinBashBanana) - Game Library and PyDodge 
 
-[Binary Person](https://github.com/binary-person) - Creator of Womginx and Rammerhead
+[Binary Person](https://github.com/binary-person) - Creator of Womginx
 
-[Divide](https://github.com/vibedivide) - TOMP and Stomp
+[Divide](https://github.com/vibedivide) - SystemYA and Chatbox Creator
 
 [Shirt](https://github.com/shirt-dev) - Proxy Developer
 
 ### Contributing
 
 See [CONTRIBUTING.md](https://github.com/FogNetwork/Tsunami/blob/main/CONTRIBUTING.md)
+
+Special Thanks To Quite A Fancy Emerald, Inspiration for Tsunami
