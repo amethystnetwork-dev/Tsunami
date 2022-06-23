@@ -98,7 +98,6 @@ Read the documentation below to find out more</p>
 
 ### Version 3.0
 - [ ] Mobile support (finish)
-- [ ] Games
 
 ### Version 4.0
 - [ ] Rewrite Code
