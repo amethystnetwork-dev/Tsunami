@@ -15,9 +15,7 @@ Read the documentation below to find out more</p>
 </div>
 
 <p align="center">
-<a href="https://heroku.com/deploy?template=https://github.com/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
-<a href="https://repl.it/github/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
-<a href="https://glitch.com/edit/#!/import/github/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/glitch2.svg"><img></a>
+<a href="https://heroku.com/deploy?template=https://github.com/IDontCodee/Tsunami-2.0"><img height="30px" src="https://raw.githubusercontent.com/IDontCodee/Tsunami-2.0/main/deploy/heroku2.svg"><img></a>
 </p>
 
 ## Documentation
@@ -144,10 +142,6 @@ var palladiumproxy = "https://example.com/palladium/"
 ## Support
 
 ### FAQ
-
-**How can I get new domains?**
-
-Join our [discord](https://discord.gg/yk33HZSZkU) for more Tsunami links
 
 **Captcha not working/issues**
 
