@@ -1,0 +1,30 @@
+name: Game Request
+description: Request a new game
+labels: [game request]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Game Type
+      multiple: false
+      options:
+        - Emulator
+        - Game
+        - Web
+        - Flash
+        - Retro (Rom)
+  - type: input
+    id: gameurl
+    attributes:
+      label: Game Url
+      placeholder: Link to the game url
+    validations:
+      required: false
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comment
+      placeholder: Leave a comment
+    validations:
+      required: false
+
