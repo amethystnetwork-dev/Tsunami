@@ -10,6 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="/img/logo.svg">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -27,11 +28,38 @@
   
 </div>
 
+<center>
+    <input autofocus onkeyup="searchapps()" id="searchapps" class="searchapps" placeholder="Search Apps"></input>
+</center>
+    
+    <div id="noapp">No results found</div>
+    
+    <div class="apps"></div>
+
+<iframe src="" id="appframe"></iframe>
+
+<div id="controls">
+
+<img id="nav-icon" class="nav-icon" src="" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyIDJjNS41MiAwIDEwIDQuNDggMTAgMTBzLTQuNDggMTAtMTAgMTBTMiAxNy41MiAyIDEyIDYuNDggMiAxMiAyek00IDEyaDQuNGMzLjQwNy4wMjIgNC45MjIgMS43MyA0LjU0MyA1LjEyN0g5LjQ4OHYyLjQ3YTguMDA0IDguMDA0IDAgMDAxMC40OTgtOC4wODNDMTkuMzI3IDEyLjUwNCAxOC4zMzIgMTMgMTcgMTNjLTIuMTM3IDAtMy4yMDYtLjkxNi0zLjIwNi0yLjc1aC0zLjc0OGMtLjI3NC0yLjcyOC42ODMtNC4wOTIgMi44Ny00LjA5MiAwLS45NzUuMzI3LTEuNTk3LjgxMS0xLjk3QTguMDA0IDguMDA0IDAgMDA0IDEyeiIgZmlsbD0iIzNDNDA0MyIvPjwvc3ZnPg=='">
+
+<div id="nav-title" class="nav-title">Loading...</div>
+  
+<div class="nav-button" onclick="fullapp()">fullscreen</div>
+
+<div class="nav-button" onclick="reloadapp()">refresh</div>
+
+<div class="nav-button" onclick="closeapp()">close</div>
+</div>
+
+<div id="closeapp" onclick="closesurf()"><i id="closeicon" class="fas fa-times"></i></div>
+<div id="reloadapp" onclick="reloadsurf()"><i id="reloadicon" class="fas fa-redo-alt"></i></div>
+
 <div id="particles-js"></div>
 <div id="squares"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="/js/index.js"></script>
+<script src="/js/apps.js"></script>
 </body>
 </html>

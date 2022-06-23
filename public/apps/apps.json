@@ -35,11 +35,6 @@
         "location": "/apps/apps.html#aHR0cHM6Ly93d3cuY29vbG1hdGhnYW1lcy5jb20="
     },
     {
-        "title": "More Games",
-        "image": "/apps/images/moregames.png",
-        "location": "https://gfiles-fork-production.up.railway.app"
-    },
-    {
         "title": "Geforce Now",
         "image": "/apps/images/gfnow.png",
         "location": "/apps/apps.html#aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29t"
