@@ -1,0 +1,228 @@
+[
+    {
+        "title": "Flash",
+        "image": "/games/images/flash.jpg",
+        "location": "/games/files/flash"
+    },
+    {
+        "title": "GBA",
+        "image": "/games/images/gba.png",
+        "location": "/games/files/webretro/?core=mgba"
+    },
+    {
+        "title": "Genesis",
+        "image": "/games/images/genesis.png",
+        "location": "/games/files/webretro/?core=genesis_plus_gx"
+    },
+    {
+        "title": "NES",
+        "image": "/games/images/nes.png",
+        "location": "/games/files/webretro/?core=nestopia"
+    },
+    {
+        "title": "N64",
+        "image": "/games/images/n64.png",
+        "location": "/games/files/webretro/?core=mupen64plus_next"
+    },
+    {
+        "title": "SNES",
+        "image": "/games/images/snes.png",
+        "location": "/games/files/webretro/?core=snes9x"
+    },
+    {
+        "title": "Asteroids",
+        "image": "/games/images/asteroids.png",
+        "location": "/games/files/asteroids"
+    },
+    {
+        "title": "Astray",
+        "image": "/games/images/astray.png",
+        "location": "/games/files/astray"
+    },
+    {
+        "title": "Algaes Escapade",
+        "image": "/games/images/algaes-escapade.png",
+        "location": "/games/files/algaes-escapade"
+    },
+    {
+        "title": "Flappy Bird",
+        "image": "/games/images/flappy-bird.png",
+        "location": "/games/files/flappy-bird"
+    },
+    {
+        "title": "Friday Night Funkin'",
+        "image": "/games/images/fridaynightfunkin.jpg",
+        "location": "/games/files/fridaynightfunkin"
+    },
+    {
+        "title": "Garbage Collector",
+        "image": "/games/images/garbage-collector.png",
+        "location": "/games/files/garbage-collector"
+    },
+    {
+        "title": "Geometry Dash",
+        "image": "/games/images/geometrydash.jpg",
+        "location": "/games/files/geometry"
+    },
+  {
+        "title": "Friendly Fire",
+        "image": "/games/images/friendlyfire.jpg",
+        "location": "/games/files/friendlyfire"
+    },
+    {
+        "title": "Doodle Jump",
+        "image": "/games/images/doodle-jump.jpg",
+        "location": "/games/files/doodle-jump"
+    },
+    {
+        "title": "HexGL",
+        "image": "/games/images/hexgl.jpg",
+        "location": "/games/files/hexgl"
+    },
+    {
+        "title": "The Chroma Incident",
+        "image": "/games/images/chroma.jpg",
+        "location": "/games/files/chroma"
+    },
+   {
+        "title": "Chrome Dinosaur",
+        "image": "/games/images/chrome-dinosaur.jpg",
+        "location": "/games/files/dinosaur"
+    },
+    {
+        "title": "Gopher Kart",
+        "image": "/games/images/gopher-kart.png",
+        "location": "/games/files/gopher-kart"
+    },
+    {
+        "title": "Hextris",
+        "image": "/games/images/hextris.png",
+        "location": "/games/files/hextris"
+    },
+    {
+        "title": "MineKhan",
+        "image": "/games/images/minekhan.png",
+        "location": "/games/files/minekhan"
+    },
+  {
+        "title": "Cookie",
+        "image": "/games/images/cookie-clicker.jpg",
+        "location": "/games/files/cookie"
+    },
+
+    {
+        "title": "Pacman",
+        "image": "/games/images/pacman.jpg",
+        "location": "/games/files/pacman"
+    },
+    {
+        "title": "Space Invaders",
+        "image": "/games/images/space-invaders.png",
+        "location": "/games/files/space-invaders"
+    },
+    {
+        "title": "Syobon Action",
+        "image": "/games/images/syobon-action.jpg",
+        "location": "/games/files/syobon-action"
+    },
+    {
+        "title": "Twitch Tetris",
+        "image": "/games/images/tetris.png",
+        "location": "/games/files/twitchtetris"
+    },
+    {
+        "title": "2048",
+        "image": "/games/images/2048.png",
+        "location": "/games/files/2048"
+    },
+    {
+        "title": "Justfall.lol",
+        "image": "/games/images/justfall-lol.jpg",
+        "location": "/uv.html?url=justfall.lol"
+    },
+    {
+        "title": "Paper.io",
+        "image": "/games/images/paper-io.jpg",
+        "location": "/uv.html?url=paper-io.com"
+    },
+    {
+        "title": "Shell Shockers",
+        "image": "/games/images/shellshockers.jpg",
+        "location": "/uv.html?url=shellshock.io"
+    },
+    {
+        "title": "Krunker.io",
+        "image": "/games/images/krk.png",
+        "location": "/uv.html?url=krunker.io"
+    },
+    {
+        "title": "Vex 3",
+        "image": "/games/images/vex3.jpg",
+        "location": "/games/files/vex3"
+    },
+    {
+        "title": "Vex 4",
+        "image": "/games/images/vex4.jpg",
+        "location": "/games/files/vex4"
+    },
+    {
+        "title": "Vex 5",
+        "image": "/games/images/vex5.jpg",
+        "location": "/games/files/vex5"
+    },
+    {
+        "title": "Zombs Royale",
+        "image": "/games/images/zombsroyale.jpg",
+        "location": "/uv.html?url=zombsroyale.io"
+    },
+    {
+        "title": "1v1.lol",
+        "image": "/games/images/1v1-lol.jpg",
+        "location": "/uv.html?url=1v1.lol"
+    },
+  {
+        "title": "Retro Bowl",
+        "image": "/games/images/retro-bowl.jpg",
+        "location": "/games/files/retro-bowl"
+    },
+  {
+        "title": "Imposter.io",
+        "image": "/games/images/imposter.png",
+        "location": "/uv.html?url=https://imposter.io"
+    },
+    {
+        "title": "Achievement Unlocked",
+        "image": "/games/images/achievementunlocked.jpg",
+        "location": "/games/files/flash?swf=achievementunlocked.swf"
+    },
+    {
+        "title": "Cubefield",
+        "image": "/games/images/cubefield.jpeg",
+        "location": "/games/files/cubefield"
+    },
+      {
+        "title": "Among Us",
+        "image": "/games/images/among.jpg",
+        "location": "/games/files/sus"
+    },
+      {
+        "title": "Roblox",
+        "image": "/games/images/trash.png",
+        "location": "/uv.html?url=https://now.gg/play/roblox-corporation/5349/roblox"
+    },
+        {
+        "title": "Little Alchemy",
+        "image": "/games/images/littlealchemy.png",
+        "location": "/uv.html?url=https://littlealchemy.com"
+    },
+          {
+        "title": "Little Alchemy 2",
+        "image": "/games/images/alchemy2.jpg",
+        "location": "/uv.html?url=https://littlealchemy2.com"
+    },
+    {
+        "title": "Retro - Coming Soon!",
+        "image": "https://avatars.githubusercontent.com/u/87547936",
+        "location": "/"
+    }
+]
