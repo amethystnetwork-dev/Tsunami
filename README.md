@@ -18,6 +18,11 @@ Read the documentation below to find out more</p>
 <a href="https://heroku.com/deploy?template=https://github.com/IDontCodee/Tsunami-2.0"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
 </p>
 
+# Discord Server
+
+<a class="discord-widget" href="https://discord.gg/J3VPy5Vy8x" title="Join us on Discord">
+<img src="https://invidget.switchblade.xyz/J3VPy5Vy8x?theme=light"></a>
+
 ## Documentation
 
 - [Overview](#overview)
