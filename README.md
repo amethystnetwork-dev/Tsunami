@@ -97,7 +97,7 @@ Read the documentation below to find out more</p>
 - [x] Background settings
 
 ### Release v2.5
-- [ ] Remove keywords
+- [x] Remove keywords / obfuscate
 - [x] Apps page (Replace Chatbox)
 - [x] About Blank
 
