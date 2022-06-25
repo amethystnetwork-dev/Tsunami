@@ -129,10 +129,20 @@ loadSquares()
 }
 
 async function installPWA() {
-installApp.prompt()
-var { outcome } = await deferredPrompt.userChoice
-if (outcome == "accepted") {
-window.location.hash = "#Tab"
-window.location.reload()
+  installApp.prompt()
+  var { outcome } = await deferredPrompt.userChoice
+  if (outcome == "accepted") {
+  window.location.hash = "#Tab"
+  window.location.reload()
 }
+}
+
+function goBlank() {
+  var page = new ABC({
+    "type": "blank"
+})
+page.setType("blank")
+page.setUrl(window.location.href)
+page.open()
+window.location.replace("https://google.com")
 }
