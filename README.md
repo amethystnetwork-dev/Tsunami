@@ -99,13 +99,7 @@ Read the documentation below to find out more</p>
 ### Release v2.5
 - [ ] Remove keywords
 - [x] Apps page (Replace Chatbox)
-- [ ] Inspect button (Avo)
-
-### Version 3.0
-- [ ] Mobile support (finish)
-
-### Version 4.0
-- [ ] Rewrite Code
+- [ ] Inspect button
 
 ## Setup
 
