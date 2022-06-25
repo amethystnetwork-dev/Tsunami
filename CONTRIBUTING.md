@@ -9,8 +9,6 @@ Make sure your issue is valid, before posting it
 
 Proxy issues may not be fixed as we don't own all the proxies
 
-If a site is blocked, join our discord for more links
-
 ### Pull Requests
 
 **Before creating a pull read the following:**
