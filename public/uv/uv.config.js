@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/ultraviolet/',
-    bare: 'https://deployable-bare-server.herokuapp.com/bare/',
+    bare: '/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl:https://deployable-bare-server.herokuapp.com Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
