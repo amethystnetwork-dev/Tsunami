@@ -11,11 +11,11 @@
 <p>Surf without web filters or restrictions. Made with style, Tsunami is a rather fancy service dedicated to protecting your freedom from censorship.
 Read the documentation below to find out more</p>
 
-<p>Want to improve Tsunami? <a href="https://github.com/IDontCodee/Incognito/compare">Create a pull request</a></p>
+<p>Want to improve Tsunami? <a href="https://github.com/IDontCodee/Tsunami-2.0/compare">Create a pull request</a></p>
 </div>
 
 <p align="center">
-<a href="https://heroku.com/deploy?template=https://github.com/IDontCodee/Tsunami-2.0"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
+<a href="https://heroku.com/deploy?template=https://github.com/IDontCodee/Tsunami-2.0"><img height="30px" src="https://raw.githubusercontent.com/IDontCodee/Tsunami-2.0/main/deploy/heroku2.svg"><img></a>
 </p>
 
 # Discord Server
@@ -106,9 +106,9 @@ Read the documentation below to find out more</p>
 ### Locally
 
 ```sh
-git clone https://github.com/FogNetwork/Tsunami
+git clone https://github.com/IDontCodee/Tsunami-2.0
 
-cd Tsunami
+cd Tsunami-2.0
 
 npm install
 
@@ -159,10 +159,6 @@ All proxies hosted locally, so you don't need any subdomains
 
 ### FAQ
 
-**How can I get new domains?**
-
-Join our [discord](https://discord.gg/yk33HZSZkU) for more Tsunami links
-
 **Captcha not working/issues**
 
 Captcha is only supported on Ultraviolet
@@ -173,7 +169,7 @@ Try using the QR code. Refreshing the page might help
 
 ### Contact
 
-Coming soon!
+Join our Discord Server [( link above or click here )](#discord-server)
 
 ## More
 
@@ -213,4 +209,4 @@ Coming soon!
 
 ### Contributing
 
-See [CONTRIBUTING.md](https://github.com/FogNetwork/Tsunami/blob/main/CONTRIBUTING.md)
+See [CONTRIBUTING.md](https://github.com/IDontCodee/Tsunami-2.0/blob/main/CONTRIBUTING.md)
