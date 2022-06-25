@@ -99,7 +99,6 @@ Read the documentation below to find out more</p>
 ### Release v2.5
 - [ ] Remove keywords
 - [x] Apps page (Replace Chatbox)
-- [ ] Inspect button
 - [ ] About Blank!!!?
 
 ## Setup
