@@ -100,6 +100,7 @@ Read the documentation below to find out more</p>
 - [ ] Remove keywords
 - [x] Apps page (Replace Chatbox)
 - [ ] Inspect button
+- [ ] About Blank!!!?
 
 ## Setup
 
