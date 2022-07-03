@@ -6,7 +6,7 @@
 
 <h1>Tsunami</h1>
 
-<h3>An official Fog Network proxy site, made to access the blocked web</h3>
+<h3>An unofficial Fog Network proxy site, made to access the blocked web</h3>
 
 <p>Surf without web filters or restrictions. Made with style, Tsunami is a rather fancy service dedicated to protecting your freedom from censorship.
 Read the documentation below to find out more</p>
