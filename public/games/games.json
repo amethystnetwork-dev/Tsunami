@@ -99,6 +99,11 @@
         "image": "/games/images/hextris.png",
         "location": "/games/files/hextris"
     },
+        {
+        "title": "Slope",
+        "image": "/games/images/hextris.png",
+        "location": "/games/files/slope"
+    },
     {
         "title": "MineKhan",
         "image": "/games/images/minekhan.png",
