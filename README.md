@@ -17,6 +17,7 @@ Read the documentation below to find out more</p>
 <p align="center">
 <a href="https://heroku.com/deploy?template=https://github.com/IDontCodee/Tsunami-2.0"><img height="30px" src="https://raw.githubusercontent.com/IDontCodee/Tsunami-2.0/main/deploy/heroku2.svg"><img></a>
 <a href="https://repl.it/github/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/IDontCodee/Tsunami-2.0/main/deploy/replit2.svg"><img></a>
+<a href="https://railway.app/new/template?template=https://github.com/IDontCodee/Tsunami-2.0"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/railway2.svg"><img></a>
 </p>
 
 # Discord Server
