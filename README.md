@@ -11,11 +11,13 @@
 <p>Surf without web filters or restrictions. Made with style, Tsunami is a rather fancy service dedicated to protecting your freedom from censorship.
 Read the documentation below to find out more</p>
 
-<p>Want to improve Tsunami? <a href="https://github.com/IDontCodee/Tsunami-2.0/compare">Create a pull request</a></p>
+<p>Want to improve Tsunami? <a href="https://github.com/IDontCodee/Tsunami/compare">Create a pull request</a></p>
 </div>
 
 <p align="center">
-<a href="https://heroku.com/deploy?template=https://github.com/IDontCodee/Tsunami-2.0"><img height="30px" src="https://raw.githubusercontent.com/IDontCodee/Tsunami-2.0/main/deploy/heroku2.svg"><img></a>
+<a href="https://heroku.com/deploy?template=https://github.com/IDontCodee/Tsunami"><img height="30px" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"><img></a>
+<a href="https://github.com/IDontCodee/Tsunami/blob/main/deploy/About-Replit.md"><img height="30px" src="https://raw.githubusercontent.com/IDontCodee/Tsunami/main/deploy/replit2.svg"><img></a>
+<a href="https://railway.app/new/template?template=https://github.com/IDontCodee/Tsunami"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"><img></a>
 </p>
 
 # Discord Server
@@ -106,7 +108,7 @@ Read the documentation below to find out more</p>
 ### Locally
 
 ```sh
-git clone https://github.com/IDontCodee/Tsunami-2.0
+git clone https://github.com/IDontCodee/Tsunami
 
 cd Tsunami-2.0
 
