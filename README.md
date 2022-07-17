@@ -110,7 +110,7 @@ Read the documentation below to find out more</p>
 ```sh
 git clone https://github.com/IDontCodee/Tsunami
 
-cd Tsunami-2.0
+cd Tsunami
 
 npm install
 
