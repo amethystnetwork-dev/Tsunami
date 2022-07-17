@@ -1,2 +1,3 @@
 language = "nodejs"
 run = "node index.js"
+onBoot = "npm install"
