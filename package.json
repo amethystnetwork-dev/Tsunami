@@ -1,11 +1,11 @@
 {
     "name": "tsunami",
-    "version": "1.0.0",
-    "repository": "https://github.com/IDontCodee/Tsunami",
+    "version": "2.5.0",
+    "repository": "https://github.com/IDontCodee/Tsunami-2.0",
     "bugs": {
-        "url": "https://github.com/IDontCodee/Tsunami/issues"
+        "url": "https://github.com/IDontCodee/Tsunami-2.0/issues"
     },
-    "description": "Tsunami is a official Fog Network proxy site, made to access the blocked web",
+    "description": "Tsunami is a unfficial Fog Network proxy site, made to access the blocked web",
     "main": "index.js",
     "scripts": {
         "start": "node index.js"
