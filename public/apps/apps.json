@@ -30,11 +30,6 @@
         "location": "/apps/apps.html#aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcHA="
     },
     {
-        "title": "Tik Tok",
-        "image": "/apps/images/tt.jpg",
-        "location": "/apps/apps.html#dGlrdG9rLmNvbQ=="
-    },
-    {
         "title": "CoolMathGames",
         "image": "/apps/images/cmg.png",
         "location": "/apps/apps.html#aHR0cHM6Ly93d3cuY29vbG1hdGhnYW1lcy5jb20="
@@ -43,10 +38,10 @@
         "title": "Geforce Now",
         "image": "/apps/images/gfnow.png",
         "location": "/apps/apps.html#aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29t"
-        },
-        {
+    },
+    {
             "title": "Y8",
             "image": "/apps/images/y8.png",
             "location": "/apps/apps.html#aHR0cHM6Ly93d3cueTguY29t"
-        }
+    }
 ]
