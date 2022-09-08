@@ -39,8 +39,7 @@ Read the documentation below to find out more</p>
 
 # Discord Server
 
-<a class="discord-widget" href="https://discord.gg/J3VPy5Vy8x" title="Join us on Discord">
-<img src="https://invidget.switchblade.xyz/J3VPy5Vy8x?theme=light"></a>
+[![Join us on Discord](https://invidget.switchblade.xyz/J3VPy5Vy8x?theme=light)](https://discord.gg/J3VPy5Vy8x)
 
 ## Documentation
 
