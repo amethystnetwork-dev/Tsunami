@@ -17,8 +17,9 @@ if (localStorage.hasOwnProperty("appearance")) {
 
 console.log("%cTsunami", "color: " + getComputedStyle(document.body).getPropertyValue('--highlight').replaceAll(" ", "") + "; font-size: 45px")
 console.log("%cBy Fog Network", "color: " + getComputedStyle(document.body).getPropertyValue('--highlight').replaceAll(" ", "") + "; font-size: 20px")
-console.log("%chttps://discord.gg/yk33HZSZkU", "font-size: 15px")
-console.log("%chttps://github.com/FogNetwork/Tsunami", "font-size: 15px")
+console.log("%cForked by Amethyst Network", "color: " + getComputedStyle(document.body).getPropertyValue('--highlight').replaceAll(" ", "") + "; font-size: 20px")
+console.log("%chttps://discord.gg/J3VPy5Vy8x", "font-size: 15px")
+console.log("%chttps://github.com/IDontCodee/Tsunami-2.0", "font-size: 15px")
 
 var title = localStorage.getItem("title")
 var favicon = localStorage.getItem("favicon")

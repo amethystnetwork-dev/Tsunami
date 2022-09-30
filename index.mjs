@@ -19,9 +19,9 @@ const password = config.password
 const users = {}
 users[username] = password
 const fetch = require("node-fetch");
-import Server from 'bare-server-node';
+import createServer from '@tomphttp/bare-server-node';
 
-const bare = new Server('/bare/', '');
+const bare = createServer('/bare/');
 
 const proxy = new Corrosion({
     prefix: "/corrosion/",

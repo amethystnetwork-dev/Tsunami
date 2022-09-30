@@ -1,13 +1,8 @@
 [
     {
-    "title": "YouTube",
-    "image": "/apps/images/yt.png",
-    "location": "/apps/apps.html#aHR0cHM6Ly93d3cueW91dHViZS5jb20="
-    },
-        {
-        "title": "Tik Tok",
-        "image": "/apps/images/tt.jpg",
-        "location": "/apps/apps.html#dGlrdG9rLmNvbQ=="
+        "title": "YouTube",
+        "image": "/apps/images/yt.png",
+        "location": "/apps/apps.html#aHR0cHM6Ly93d3cueW91dHViZS5jb20="
     },
     {
         "title": "Spotify",
@@ -45,8 +40,8 @@
         "location": "/apps/apps.html#aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29t"
     },
     {
-            "title": "Y8",
-            "image": "/apps/images/y8.png",
-            "location": "/apps/apps.html#aHR0cHM6Ly93d3cueTguY29t"
+        "title": "Y8",
+        "image": "/apps/images/y8.png",
+        "location": "/apps/apps.html#aHR0cHM6Ly93d3cueTguY29t"
     }
 ]
