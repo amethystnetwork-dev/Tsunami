@@ -155,10 +155,15 @@
         "image": "/games/images/shellshockers.jpg",
         "location": "/uv.html?url=shellshock.io"
     },
+        {
+        "title": "Minecraft",
+        "image": "/games/images/download(1).jpeg",
+        "location": "/uv.html?url=https://now.gg/apps/mojang/2534/minecraft-trial.html"
+    },
     {
         "title": "Krunker.io",
         "image": "/games/images/krk.png",
-        "location": "/uv.html?url=ny.browserfps.com"
+        "location": "/uv.html?url=krunker.io"
     },
     {
         "title": "Vex 3",
