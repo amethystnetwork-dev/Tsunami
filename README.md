@@ -16,12 +16,9 @@
 -->
 <!-- The font is called ANSI Shadow, if you are wondering -->
 <div align="center">
-
-<kbd>
-<img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/public/img/logo.svg">
-</kbd>
-
-<h1>Tsunami</h1>
+<!-- <kbd><img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/public/img/logo.svg"></kbd> -->
+  
+<img src="https://socialify.git.ci/IDontCodee/Tsunami-2.0/image?descriptionEditable=&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FIDontCodee%2FTsunami-2.0%2Fmain%2Fpublic%2Fimg%2Flogo.svg&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Light" alt="Tsunami-2.0" width="640" height="320" />
 
 <h3>An unofficial Fog Network proxy site, made to access the blocked web</h3>
 
