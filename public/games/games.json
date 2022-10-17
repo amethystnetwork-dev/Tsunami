@@ -180,6 +180,11 @@
         "image": "/games/images/vex5.jpg",
         "location": "/games/files/vex5"
     },
+        {
+        "title": "Vex 6",
+        "image": "/games/images/icon.jpeg",
+        "location": "/games/files/vex6"
+    },
     {
         "title": "Zombs Royale",
         "image": "/games/images/zombsroyale.jpg",
