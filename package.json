@@ -1,0 +1,35 @@
+{
+    "name": "tsunami",
+    "version": "2.5.0",
+    "repository": "https://github.com/IDontCodee/Tsunami-2.0",
+    "bugs": {
+        "url": "https://github.com/IDontCodee/Tsunami-2.0/issues"
+    },
+    "description": "Tsunami is a unfficial Fog Network proxy site, made to access the blocked web",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "javascript",
+        "proxy",
+        "bypass",
+        "proxy-site",
+        "unblocker",
+        "fog-network"
+    ],
+    "author": "Fog Network",
+    "license": "MIT",
+    "dependencies": {
+        "@tomphttp/bare-server-node": "1.0.4-deps1",
+        "express": "^4.17.1",
+        "express-basic-auth": "^1.2.0",
+        "node-fetch": "^2.1.0",
+        "Rhodium": "github:ludicrousdevelopment/rhodium",
+        "acorn-hammerhead": "^0.5.0",
+        "css-tree": "^1.1.3",
+        "esotope-hammerhead": "^0.6.1",
+        "parse5": "^6.0.1",
+        "webpack": "^5.46.0"
+    }
+}
