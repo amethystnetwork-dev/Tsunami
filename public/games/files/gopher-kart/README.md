@@ -1,3 +1,3 @@
 # Gopher Kart
 
-Original game by Jamilet Zelaya. Leaderboard edition!
+Original game by Jamilet Zelaya.
