@@ -18,19 +18,19 @@
 <div align="center">
 <!-- <kbd><img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/public/img/logo.svg"></kbd> -->
   
-<img src="https://socialify.git.ci/amethystnetwork-dev/Tsunami-2.0/image?descriptionEditable=&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Famethystnetwork-dev%2FTsunami-2.0%2Fmain%2Fpublic%2Fimg%2Flogo.svg&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Light" alt="Tsunami-2.0" width="640" height="320" />
+<img src="https://socialify.git.ci/amethystnetwork-dev/Tsunami/image?descriptionEditable=&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Famethystnetwork-dev%2FTsunami%2Fmain%2Fpublic%2Fimg%2Flogo.svg&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Light" alt="Tsunami" width="640" height="320" />
 
 <h3>An unofficial Fog Network proxy site, made to access the blocked web</h3>
 
 <p>Surf without web filters or restrictions. Made with style, Tsunami is a rather fancy service dedicated to protecting your freedom from censorship.
 Read the documentation below to find out more</p>
 
-<p>Want to improve Tsunami? <a href="https://github.com/amethystnetwork-dev/Tsunami-2.0/compare">Create a pull request</a></p>
+<p>Want to improve Tsunami? <a href="https://github.com/amethystnetwork-dev/Tsunami/compare">Create a pull request</a></p>
 </div>
 
 <p align="center">
-<a href="https://amethystnetwork-dev.github.io/utils/deploy/heroku?repo=Tsunami-2.0"><img height="30px" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"><img></a>
-<a href="https://amethystnetwork-dev.github.io/utils/deploy/replit?repo=Tsunami-2.0"><img height="30px" src="https://amethystnetwork-dev.github.io/assets/replit.svg"><img></a>
+<a href="https://amethystnetwork-dev.github.io/utils/deploy/heroku?repo=Tsunami"><img height="30px" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"><img></a>
+<a href="https://amethystnetwork-dev.github.io/utils/deploy/replit?repo=Tsunami"><img height="30px" src="https://amethystnetwork-dev.github.io/assets/replit.svg"><img></a>
 <a href="https://railway.app/new/template/GTdHJk"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"><img></a>
 </p>
 
@@ -121,7 +121,7 @@ Read the documentation below to find out more</p>
 ### Locally
 
 ```sh
-git clone https://github.com/amethystnetwork-dev/Tsunami-2.0
+git clone https://github.com/amethystnetwork-dev/Tsunami
 
 cd Tsunami
 
@@ -224,4 +224,4 @@ Join our Discord Server [( link above or click here )](#discord-server)
 
 ### Contributing
 
-See [CONTRIBUTING.md](https://github.com/amethystnetwork-dev/Tsunami-2.0/blob/main/CONTRIBUTING.md)
+See [CONTRIBUTING.md](https://github.com/amethystnetwork-dev/Tsunami/blob/main/CONTRIBUTING.md)
