@@ -6,9 +6,9 @@
         "url": "https://github.com/IDontCodee/Tsunami/issues"
     },
     "description": "Tsunami is a unfficial Fog Network proxy site, made to access the blocked web",
-    "main": "index.js",
+    "main": "index.mjs",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.mjs"
     },
     "keywords": [
         "javascript",
