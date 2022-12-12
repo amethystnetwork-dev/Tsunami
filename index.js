@@ -1,3 +1,3 @@
 (() => {
-  import('./public/index.mjs');
+  import('./index.mjs');
 })();
