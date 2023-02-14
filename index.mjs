@@ -4,11 +4,11 @@ Made by Nebelung
 MIT license: https://opensource.org/licenses/MIT
 */
 
-import { createRequire } from "module";
+import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
-const express = require("express")
+import express from "express";
 const app = express()
-const basicAuth = require("express-basic-auth");
+import basicAuth from "express-basic-auth";
 const config = require("./config.json")
 const port = process.env.PORT || config.port
 const Corrosion = require("./lib/server")
@@ -18,10 +18,10 @@ const username = config.username
 const password = config.password
 const users = {}
 users[username] = password
-const fetch = require("node-fetch");
-import createServer from '@tomphttp/bare-server-node';
+import createBareServer from '@tomphttp/bare-server-node';
+import { createServer } from "node:http";
 
-const bare = createServer('/bare/');
+const bare = createBareServer('/bare/');
 
 const proxy = new Corrosion({
     prefix: "/corrosion/",
@@ -48,11 +48,10 @@ const Rhodium = new RhodiumProxy({
 Rhodium.init();
 
 if (config.chromebook == "true") {
-app.use(function(req, res){
-if (!req.get('User-Agent').includes("CrOS")) {
-res.status(403)
-}
-});
+  app.use((req, res, next) => {
+    if(!req.get('User-Agent').includes(CrOS)) return res.status(403);
+    next()
+  });
 }
 
 if (auth == "true") { 
@@ -73,33 +72,30 @@ app.use(express.static("./public", {
     extensions: ["html"]
 }));
 
-app.get("/", function(req, res){
+app.get("/", (req, res) => {
     res.sendFile("index.html", {root: "./public"});
 });
 
-app.get("/suggestions", function(req, res){
-async function getsuggestions() {
-var term = req.query.q || "";
-var response = await fetch("https://duckduckgo.com/ac/?q=" + term + "&type=list");
-var result = await response.json();
-var suggestions = result[1]
-res.send(suggestions)
-}
-getsuggestions()
-});
-
-app.use(function (req, res) {
+app.use((req, res) => {
     if (req.url.startsWith(proxy.prefix)) {
       proxy.request(req,res);
     } else if (req.url.startsWith(Rhodium.prefix)) {
       return Rhodium.request(req, res)
-    } else if (req.url.startsWith("/bare/")) {
-      return bare.route_request(req, res)
     } else {
       res.status(404).sendFile("404.html", {root: "./public"});
     }
-})
+});
 
-app.listen(port, () => {
+const http = createServer();
+
+http.on("request", (req, res) => {
+  if(bare.shouldRoute(req)) bare.routeRequest(req, res); else app(req, res);
+});
+
+http.on("upgrade", (req, socket, head) => {
+  if(bare.shouldRoute(req)) bare.routeUpgrade(req, socket, head); else socket.end();
+});
+
+http.listen(port, () => {
   console.log(`Tsunami is running at localhost:${port}`)
-})
+});

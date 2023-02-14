@@ -1,7 +1,4 @@
-<!-- Notice for idiots -->
-# NOTICE:
-
-You CANNOT deploy to Vercel, Netifly, GitHub Pages, or Cloudflare pages. They are static hosts, they just act as a web facing file system, you need the actual proxy for this to work.
+# This repo has been archived due to [Metallic](https://github.com/Metallic-Web/Metallic).
 
 <!--
 ███╗   ███╗ █████╗ ██████╗ ███████╗    ██████╗ ██╗   ██╗    ███████╗ ██████╗  ██████╗     ███╗   ██╗███████╗████████╗██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗                                                          

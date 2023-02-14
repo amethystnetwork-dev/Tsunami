@@ -21,7 +21,7 @@ And does not change anything like the logo or title
 
 ### Game Requests
 
-**When making a game request please fill out this [form](https://github.com/IDontCodee/Tsunami-2.0/issues/new?assignees=&labels=game+request&template=game-request.yml)**
+**When making a game request please fill out this [form](https://github.com/amethystnetwork-dev/Tsunami/issues/new?assignees=&labels=game+request&template=game-request.yml)**
 
 Game requests must have a link to the game source (emulator, game, web, flash, or retro)
 

@@ -10,6 +10,8 @@ if ('serviceWorker' in navigator) {
 window.navigator.serviceWorker.register('./uv.js', {scope: __uv$config.prefix})
 }
 
+const bare = new Ultraviolet.BareClient(new URL(__uv$config.bare, window.location));
+
 var Stomp = new StompBoot({
   bare_server: "/bare/",
   directory: "/stomp/",
@@ -184,8 +186,8 @@ document.getElementById("suggestions").innerText = ""
 showsugg()
 async function getsuggestions() {
 var term = search.value || "";
-var response = await fetch("/suggestions?q=" + term);
-var result = await response.json();
+var response = await bare.fetch("https://duckduckgo.com/ac/?q=" + term + "&type=list");
+var result = (await response.json())[1];
 var suggestions = result.slice(0, 8);
 for (sugg in suggestions) {
 var suggestion = suggestions[sugg]
